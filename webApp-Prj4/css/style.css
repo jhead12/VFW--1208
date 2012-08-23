@@ -1,0 +1,79 @@
+/*title: form.html Stylesby: Joshua HeadTerm 1208*/
+
+
+body {
+    margin: 0 auto;
+    width: 100%;    height: 100%;    background-color:black ;
+}
+#wrapper {
+    background-attachment: scroll;
+    background-color: coral;
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 38px auto;
+    border-radius: 26px 26px 26px 26px;
+    padding-top: 10px;
+}
+#content {
+    padding: 20px;
+}
+header {
+    background: none repeat scroll 0 0 blue;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    color: white;
+    margin: 0 auto;
+    padding: 12px;
+}
+li, h1 {
+    color: white;
+    display: table;
+    padding: 8px 0 0;
+    text-decoration: none;
+}
+input {
+    background: none repeat scroll 0 0 gainsboro;
+    border-radius: 25px 25px 25px 25px;
+    color: blue;
+    font-family: Comic Sans MS;
+    font-size: 15px;
+    height: 100%;
+    text-align: center;
+}
+legend {
+    color: white;
+}
+#buttons a {
+    color: yellow;
+    text-decoration: none;
+}
+fieldset {
+    background: none repeat scroll 0 0 blue;
+    border-radius: 20px 20px 20px 20px;
+}
+#buttons {
+    border: 2px none;
+    text-align: center;
+}
+input.range {
+    color: white;
+}
+h3 {
+    color: white;
+    font-family: comic sans ms;
+}
+h2 {
+    color: yellow;
+}
+textarea {
+    background-color: gainsboro;
+    border-radius: 8px 8px 8px 8px;
+    height: 150px;
+    resize: inherit;
+    width: 353px;
+}
+
