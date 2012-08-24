@@ -3,8 +3,9 @@
 
 
 
+
 body {
-    background-color: black;
+    background-color: green;
     height: 100%;
     margin: 0 auto;
     width: 100%;
@@ -36,6 +37,7 @@ h1 {
 li, h1 {
     color: white;
     display: table;
+    font-size: 50px;
     padding: 8px 0 0;
     text-decoration: none;
 }
@@ -66,15 +68,31 @@ fieldset {
     border: 2px none;
     text-align: center;
 }
+#wbutton {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 25px 25px 25px 25px;
+    font-family: Comic Sans MS;
+    font-size: 32px;
+    height: 50px;
+    padding-bottom: 2px;
+    text-align: center;
+    width: 100%;
+}
+#wbutton a {
+    color: red;
+    text-decoration: none;
+}
 input.range {
     color: white;
 }
 h3 {
     color: white;
     font-family: comic sans ms;
+    font-size: 36px;
 }
 h2 {
     color: yellow;
+    font-size: 48px;
 }
 textarea {
     background-color: #FFFFFF;
